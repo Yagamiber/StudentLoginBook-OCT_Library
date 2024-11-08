@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="icon" href="leaknimontejo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Student Login</h2>
+        <form id="loginForm">
+            <label for="studentNumber">Student Number:</label>
+            <input type="text" id="studentNumber" placeholder="202S-****">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="1-8 default password" required minlength="8" maxlength="8">
+
+            <label for="purpose">Purpose of  Library Visit:</label>
+            <select id="purpose" required>
+                <option value="Borrowing Books">Borrowing Books</option>
+                <option value="Wifi Connection">Wifi Connection</option>
+                <option value="Maglabas">Maglabas</option>
+                <option value="Computer Laboratory">Computer Laboratory</option>
+            </select>
+
+            <button type="submit">Login</button>
+        </form>
+        <button onclick="viewHistory()">View Login History</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

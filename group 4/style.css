@@ -1,0 +1,224 @@
+/* General reset and font styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, serif;
+    background: url('yagami2.webp') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f2f2f2;
+    animation: backgroundFade 5s ease-in-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Animation for background color fade */
+@keyframes backgroundFade {
+    0% {
+        background-color: #d3d3d3;
+    }
+    100% {
+        background-color: #f2f2f2;
+    }
+}
+
+/* Container with fade-in animation */
+.login-container {
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0000004d;
+    text-align: center;
+    width: 300px;
+    color: #fff;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 1.5em;
+    animation: fadeInTitle 2s ease-in-out;
+}
+
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+label {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style for input and select elements */
+input, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: #444;
+    color: #ececec;
+    font-family: Georgia, serif;
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+/* Shadow effect when input or select is focused */
+input:focus, select:focus {
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.6);
+}
+
+/* Placeholder text styling */
+input::placeholder, select {
+    color: #bbb;
+    font-family: Georgia, serif;
+}
+
+/* Button styling, matching input dimensions */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth color transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #004494;
+    transform: scale(1.02); /* Slight scale-up on hover */
+}
+
+.button-container {
+    margin-bottom: 15px; /* Adds spacing below the back button */
+    text-align: center;
+}
+
+.back-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.back-button:hover {
+    background-color: #004494;
+    transform: scale(1.02);
+}
+
+/* Table container for improved alignment */
+.history-container {
+    background: rgba(28, 28, 28, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 800px;
+    color: #ffffff;
+    font-family: Georgia, serif;
+    animation: fadeIn 1.5s ease-in-out;
+    margin-top: 20px;
+}
+
+/* Table title styling */
+.history-container h2 {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Table header styling */
+table thead th {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+    border-top: 1px solid #004494;
+    border-bottom: 2px solid #004494;
+    transition: background-color 0.3s ease;
+}
+
+/* Table row styling */
+table tbody tr {
+    background-color: #333333;
+    border-bottom: 1px solid #444444;
+    transition: background-color 0.3s ease;
+}
+
+/* Table cell styling */
+table tbody td {
+    padding: 10px;
+    color: #ffffff;
+}
+
+/* Alternating row color */
+table tbody tr:nth-child(even) {
+    background-color: #3a3a3a;
+}
+
+/* Row hover effect */
+table tbody tr:hover {
+    background-color: #444444;
+}
+
+/* Clear history button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #004494;
+    transform: scale(1.02);
+}
