@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'Johnross Mabalot', section: 'LYRA', studentNumber: '202S-7621' },
         { name: 'Lance Lalaguna', section: 'LYRA', studentNumber: '202S-5150' },
         { name: 'Saimon Motus', section: 'LYRA', studentNumber: '202S-5049' },
+        { name: 'testing', section: 'test', studentNumber: '202S-1234' },
         { name: '', section: '', studentNumber: '' },
         { name: '', section: '', studentNumber: '' },
         { name: '', section: '', studentNumber: '' },
