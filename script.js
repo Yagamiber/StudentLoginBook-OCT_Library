@@ -14,6 +14,19 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'John Paul Ramos', section: 'Cassiopeia', studentNumber: '202S-3707' },
         { name: 'Aleck Jade Regoniel', section: 'Cassiopeia', studentNumber: '202S-3822' },
         { name: 'Miel Ayesha Perlas', section: 'Cassiopeia', studentNumber: '202S-4173' },
+        { name: 'Jayvee Espinosa', section: 'Spinel', studentNumber: '202S-7751' },
+        { name: 'Anna Villaruel', section: 'Spinel', studentNumber: '202S-7814' },
+        { name: 'Francine Balmaceda ', section: 'Spinel', studentNumber: '202S-7727' },
+        { name: 'Princess  Juangco', section: 'Rigel', studentNumber: '202S-4758' },
+        { name: 'Renz Marionne Cuya', section: 'Rigel', studentNumber: '202S-4537' },
+        { name: 'Felimar Maravillas', section: 'Rigel', studentNumber: '202S-3927' },
+        { name: 'Felimar Maravillas', section: 'Rigel', studentNumber: '202S-3927' },
+        { name: 'Ashley Erni', section: 'RUBY', studentNumber: '202S-6038' },
+        { name: 'Chantrice Dilla', section: 'RUBY', studentNumber: '202S-6117' },
+        { name: 'Deejhay Chia', section: 'RUBY', studentNumber: '202S-7244' },
+        { name: 'Daniella Mae Villalobos', section: 'CAPRICORN', studentNumber: '202S-5081' },
+        { name: 'Ezekiel Flores', section: 'CAPRICORN', studentNumber: '202S-4995' },
+        { name: 'Ashley Nicole Gornes', section: 'CAPRICORN', studentNumber: '202S-5076' },
 
     ];
 
